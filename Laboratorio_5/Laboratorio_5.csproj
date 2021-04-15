@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriadeClases_1\LibreriadeClases_1.csproj" />
+  </ItemGroup>
+
 </Project>
