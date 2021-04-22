@@ -6,11 +6,14 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using LibreriaDeClasesED1;
+
 
 namespace Laboratorio_5.Controllers
 {
     public class HomeController : Controller
     {
+        LibreriaDeClasesED1
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
