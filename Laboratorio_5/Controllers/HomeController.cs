@@ -13,7 +13,6 @@ namespace Laboratorio_5.Controllers
 {
     public class HomeController : Controller
     {
-        LibreriaDeClasesED1
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -23,6 +22,7 @@ namespace Laboratorio_5.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
 

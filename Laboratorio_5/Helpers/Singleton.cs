@@ -8,6 +8,7 @@ namespace Laboratorio_5.Helpers
 {
     public class Singleton
     {
+        
         private static Singleton _instance = null;
         public static Singleton Instance
         {

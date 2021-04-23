@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LibreriaDeClasesED1
 {
-    class ListaEnlazada
+    public class ListaEnlazada
     {
         public NodoHash[] Lista { get; set; }
         public ListaEnlazada()
@@ -33,21 +33,18 @@ namespace LibreriaDeClasesED1
             }
         }
 
-        public NodoHash RecorrerLista(int val)
+        public NodoHash RecorrerLista(string val)
         {
             int cont = 0;
-            //while ((cont <= Lista.Length) && (Lista[cont].valor != val))
-            //{
-            //    cont++;
-            //}
-            if (cont == Lista.Length)
+            if (Lista[0].Titulo==val)
             {
-                return null;
+                return Lista[0];
             }
             else
             {
-                return Lista[cont];
+                return null;
             }
+           
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LibreriaDeClasesED1
 {
-    class NodoHash
+    public class NodoHash
     {
         public string Titulo { get; set; }
         public string Desciprcion { get; set; }
